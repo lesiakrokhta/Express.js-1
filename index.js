@@ -24,10 +24,7 @@ function questionMiddle(req, res, next){
 	next();
 }
 
-function writeMiddle(req, res, next){
-	// var body =[];
-	// req.query('/hello');
-	// res.send(body);app.get("/car/make", (req, res) => {  
+function writeMiddle(req, res, next){ 
     console.log(req.query);
 	next();
 }
